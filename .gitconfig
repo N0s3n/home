@@ -1,0 +1,9 @@
+[core]
+        editor = vim
+[color]
+        ui = true
+
+[user]
+        name = Björn Viklund
+        email = bjornbertilviklund@gmail.com
+
