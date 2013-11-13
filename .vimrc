@@ -406,4 +406,5 @@ let vimrplugin_tmux = 0
 set number
 nmap <C-Enter> O<Esc>j
 nmap <CR> o<Esc>k
+nnoremap <silent> <s-Space> :nohlsearch<Bar>:echo<CR>
 map <F2> :lcd %:p:h<CR>
