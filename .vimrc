@@ -411,4 +411,3 @@ map <F2> :lcd %:p:h<CR>
 hi MatchParen cterm=underline ctermbg=green ctermfg=white guibg=red guifg=white
 set mouse=a
 set cursorline
-
