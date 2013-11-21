@@ -178,8 +178,10 @@ set wrap "Wrap lines
 """"""""""""""""""""""""""""""
 " Visual mode pressing * or # searches for the current selection
 " Super useful! From an idea by Michael Naumann
-vnoremap <silent> * :call VisualSelection('f')<CR>
-vnoremap <silent> # :call VisualSelection('b')<CR>
+"vnoremap <silent> * :call VisualSelection('b')<CR>
+"vnoremap <silent> # :call VisualSelection('f')<CR>
+vnoremap <silent> # :call VisualSelection('f', '')<CR>
+vnoremap <silent> * :call VisualSelection('b', '')<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -404,7 +406,7 @@ filetype indent on
 let vimrplugin_noscreenrc = 1
 let vimrplugin_tmux = 0 
 set number
-nmap <C-Enter> O<Esc>j
+nmap <C-Enter> o<Esc>
 nmap <CR> o<Esc>k
 nnoremap <silent> <s-Space> :nohlsearch<Bar>:echo<CR>
 map <F2> :lcd %:p:h<CR>
