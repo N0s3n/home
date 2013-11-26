@@ -6,4 +6,6 @@
                 #library(vimcom)
         }
 }
+library(dataview)
+options(width=1000)
 
