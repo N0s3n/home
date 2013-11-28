@@ -8,8 +8,8 @@
 }
 library(dataview)
 options(width=1000)
+options(help <- type = "html")
 
 #Set clock in promt
-print('Loading clock')
 library(tcltk2)
 tclTaskSchedule(1000, {options(prompt=paste('[',format(Sys.time(),'%T'),']',"> ",sep=''))}, id = "ticktock", redo = TRUE)
