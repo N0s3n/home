@@ -8,7 +8,7 @@
 }
 library(dataview)
 options(width=1000)
-options(help <- type = "html")
+options(help_type = "html")
 
 #Set clock in promt
 library(tcltk2)
