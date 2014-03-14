@@ -410,6 +410,7 @@ nmap <C-Enter> o<Esc>
 nmap <CR> o<Esc>k
 nnoremap <silent> <s-Space> :nohlsearch<Bar>:echo<CR>
 map <F2> :lcd %:p:h<CR>
+map <F3> :set wrap!<CR>
 hi MatchParen cterm=underline ctermbg=green ctermfg=white guibg=red guifg=white
 set mouse=a
 set cursorline
