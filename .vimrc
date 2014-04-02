@@ -416,5 +416,17 @@ set mouse=a
 set cursorline
 nmap <C-c> V::ScreenSend<Return>
 
-
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Maximize gvim window.
+  set lines=60 columns=117
+else
+  " This is console Vim.
+  if exists("+lines")
+    "set lines=50
+  endif
+  if exists("+columns")
+    "set columns=100
+  endif
+endif
 
