@@ -4,7 +4,7 @@
                 #library(colorout)
                 #library(setwidth)
                 #library(vimcom)
-                # library(dataview)
+                library(dataview)
                 options(width=1000)
                 options(help_type = "html")
 
