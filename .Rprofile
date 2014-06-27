@@ -5,7 +5,7 @@
                 #library(setwidth)
                 #library(vimcom)
                 library(dataview)
-                options(width=1000)
+                options(width=145)
                 options(help_type = "html")
 
                 #Set clock in promt
