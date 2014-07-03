@@ -411,10 +411,12 @@ nmap <CR> o<Esc>k
 nnoremap <silent> <s-Space> :nohlsearch<Bar>:echo<CR>
 map <F2> :lcd %:p:h<CR>
 map <F3> :set wrap!<CR>
+map <f4> :set spell spelllang=en_us<CR>
 hi MatchParen cterm=underline ctermbg=green ctermfg=white guibg=red guifg=white
 set mouse=a
 set cursorline
 nmap <C-c> V::ScreenSend<Return>
+
 
 if has("gui_running")
   " GUI is running or is about to start.
