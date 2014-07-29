@@ -4,6 +4,7 @@ alias ll='ls -lha --group-directories-first'
 alias lsd='l --color=always | grep ^d --color=never'
 alias lsf='l --color=always | grep -v ^d --color=never'
 stty -ixon
+export HISTTIMEFORMAT="%F_%T "
 
 if [ -d "$HOME/bin" ] ; then
         PATH="$HOME/bin:$PATH"
