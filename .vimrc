@@ -403,8 +403,10 @@ filetype indent on
 
 
 
-let vimrplugin_noscreenrc = 1
-let vimrplugin_tmux = 0 
+"let vimrplugin_noscreenrc = 1
+"let vimrplugin_tmux = 1 
+let vimrplugin_notmuxconf = 1 
+let vimrplugin_assign = 0
 set number
 nmap <C-Enter> o<Esc>
 nmap <CR> o<Esc>k
