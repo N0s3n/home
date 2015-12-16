@@ -44,11 +44,7 @@
 #  (The pipes indicate the edges of the xterm/console).
 
 # Green text, time, and date; windows in blue:
-#echo "`free -m | grep - | awk '{print $4}'`/65536" | bc  -l | awk '{print int(100*$1+.5)}'
-
-backtick 1 60 60 /home/bjorn/bin/getRam.sh
-#hardstatus alwayslastline "%{=b}%{G} Screen(s): %{b}%w %=%{kG}%C  %D, %Y-%m-%d"
-hardstatus string "%{= KW} %H [%`] %{= Kw}|%{-} %-Lw%{= bW}%n%f %t%{-}%+Lw %= %D %c %Y-%m-%d | Ram usage: %1`"
+hardstatus alwayslastline "%{=b}%{G} Screen(s): %{b}%w %=%{kG}%c  %D, %Y-%m-%d "
 
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= #
 
