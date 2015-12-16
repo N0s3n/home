@@ -1,2 +1,2 @@
 #!/bin/bash
-cp ~/{.bashrc,.gitconfig,.inputrc,.profile,.Rprofile,.screenrc,.vimrc,.Xmodmap} .
+cp ~/{.bashrc,.gitconfig,.inputrc,.profile,.Rprofile,.screenrc,.vimrc,.Xmodmap,.tmux.conf} .
