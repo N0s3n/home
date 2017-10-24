@@ -412,6 +412,9 @@ nnoremap <silent> <s-Space> :nohlsearch<Bar>:echo<CR>
 map <F2> :lcd %:p:h<CR>
 map <F3> :set wrap!<CR>
 map <f4> :set spell spelllang=en_us<CR>
+map <f5> :setlocal noexpandtab  shiftwidth=20 softtabstop=20  tabstop=20 <CR>
+map <f6> :setlocal expandtab  shiftwidth=4 softtabstop=0  tabstop=4 <CR> 
+
 hi MatchParen cterm=underline ctermbg=green ctermfg=white guibg=red guifg=white
 set mouse=a
 set cursorline
