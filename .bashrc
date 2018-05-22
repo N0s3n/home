@@ -23,3 +23,7 @@ PS1='\[\033[01;34m\][\t] ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\
 
 HISTSIZE=10000
 HISTFILESIZE=10000
+
+
+bind '"\e[A":history-search-backward'
+bind '"\e[B":history-search-forward'
