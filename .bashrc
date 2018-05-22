@@ -21,8 +21,8 @@ PATH="/home/bjorn/program/bedtools-2.17.0/bin:$PATH"
 PS1='\[\033[01;34m\][\t] ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
  
 
-HISTSIZE=10000
-HISTFILESIZE=10000
+HISTSIZE=-1
+HISTFILESIZE=-1
 
 
 bind '"\e[A":history-search-backward'
