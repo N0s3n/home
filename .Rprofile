@@ -1,5 +1,5 @@
 .First <- function(...){
-        options(repos="http://ftp.sunet.se/pub/lang/CRAN")
+        options(repos="https://ftp.acc.umu.se/mirror/CRAN/")
         if(interactive()){
                 #library(colorout)
                 #library(setwidth)
